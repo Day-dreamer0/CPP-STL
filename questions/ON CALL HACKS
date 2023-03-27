@@ -1,0 +1,6 @@
+If blocking is reported on RPL server
+sp_whoisactive --IF blocking is there and it is leading to replication lag, the process can be killed (For now I've seen cleanup job issue)
+
+select * from distribution_olap/oltp..msrepl_errors order by time desc
+--check if any errors are there
+
