@@ -15,6 +15,8 @@ abba
 Sample Output
 4
 */
+
+// lc-> https://leetcode.com/problems/longest-repeating-character-replacement/description/
 class Solution {
 public:
     int characterReplacement(string s, int k) {

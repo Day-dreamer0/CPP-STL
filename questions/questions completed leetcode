@@ -54,6 +54,10 @@ https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1 #
 
 https://www.codingninjas.com/codestudio/problems/longest-subarray-with-sum-k_5713505 #BOTH +VE AND -VE CN
 
+https://www.lintcode.com/problem/911/description #max size subarray sum equals k
+
+https://leetcode.com/problems/subarray-sum-equals-k/description/ #count of subarrays sum equal k
+
 https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1 #max substring with k unique characters
 
 https://leetcode.com/problems/fruit-into-baskets/ #max substring with atmost k unique characters
@@ -70,11 +74,60 @@ https://leetcode.com/problems/minimum-window-substring/description/ #minimum win
 
 https://leetcode.com/problems/longest-repeating-character-replacement/description/ #sanketandstrings
 
-https://leetcode.com/problems/maximum-subarray/submissions/915393120/ #maximum sum subarray Kadane's algo
+https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/ #activity selection problem
+
+https://leetcode.com/problems/k-closest-points-to-origin/description/ #k nearest hostel priority queue
+
+https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1
+
+https://leetcode.com/problems/next-permutation/description/
+
+https://leetcode.com/problems/maximum-subarray/description/ #maximum sum subarray Kadane's algo
 
 https://leetcode.com/problems/maximum-product-subarray/description/ #maximum product subarray
 
+https://practice.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1
 
+https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/
 
+https://www.lintcode.com/problem/928/
 
+https://leetcode.com/problems/max-consecutive-ones-iii/description/
 
+https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1
+
+https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1
+
+https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1
+
+https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1 #count of subsets with a given sum
+
+https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1 #min difference of subsets
+
+https://practice.geeksforgeeks.org/problems/partitions-with-given-difference/1
+
+https://practice.geeksforgeeks.org/problems/partitions-with-given-difference/1 #count of partition with given difference
+
+https://leetcode.com/problems/target-sum/description/ #count of partition with given difference
+
+https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1 #unbounded knapsack
+
+https://practice.geeksforgeeks.org/problems/rod-cutting0840/1 #rod cutting
+
+https://practice.geeksforgeeks.org/problems/coin-change2448/1 #coin change 1
+
+https://practice.geeksforgeeks.org/problems/number-of-coins1824/1 #coin change 2
+
+https://practice.geeksforgeeks.org/problems/09b910559335521654aa2909f86f893447d8f5ba/1 #another coin change
+
+https://leetcode.com/problems/combination-sum/description/
+
+https://leetcode.com/problems/combination-sum-ii/description/
+
+https://leetcode.com/problems/combination-sum-iii/description/
+
+https://leetcode.com/problems/combination-sum-iv/description/
+
+https://www.geeksforgeeks.org/maximum-product-cutting-dp-36/ #GFG unbounded knapsack type
+
+https://leetcode.com/problems/palindrome-number/description/ #is palindrome

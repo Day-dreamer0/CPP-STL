@@ -4,6 +4,7 @@ IP-> 11
 5
 OP-> 7
 */
+//(for +ve and -ve numbers)LN-> https://www.lintcode.com/problem/911/description
 //(for only +ve numbers)CN-> https://www.codingninjas.com/codestudio/problems/longest-subarray-with-sum-k_6682399
 //(for +ve and -ve numbers) GFG-> https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1
 //(for +ve and -ve numbers) CN-> https://www.codingninjas.com/codestudio/problems/longest-subarray-with-sum-k_5713505
@@ -167,3 +168,31 @@ int longestSubarrayWithSumK(vector<int> a, long long k) {
     return mx;
 }
 
+//LINTCODE
+class Solution {
+public:
+    /**
+     * @param nums: an array
+     * @param k: a target value
+     * @return: the maximum length of a subarray that sums to k
+     */
+    int maxSubArrayLen(vector<int> &nums, int k) {
+        unordered_map<int,int> um; //sum,index
+        int sum=0,mx=0;
+        um[0]=-1;
+        for(int i=0;i<nums.size();++i)
+        {
+            sum+=nums[i];
+            if(um.find(sum-k)!=um.end())
+            {
+                mx=max(mx,i-um[sum-k]);
+            }
+            if(um.find(sum)==um.end())
+            {
+                um[sum]=i;
+            }
+        }
+        return mx;
+
+    }
+};
